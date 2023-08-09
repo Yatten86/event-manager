@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+# EVENT MANAGEMENT APLICATION
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+A platform where users can create, edit, and delete events. Others can view event details and register for them.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Features:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Authentication and Registration
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Routes**: react-router-dom for different routes (registration, authentication, main pages ).
+- **Design**: Material-UI for pleasing registration and authentication forms.
+- **Form Managenet**: Formik for validation and form state management.
 
-### `npm test`
+### Evant Creation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Input event details such as name, description, date and location.
+- Formik for form management and validation.
+- Material-UI for form design, including date/time selection.
 
-### `npm run build`
+### Event Viewing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- List of events represented as Material-UI cards.
+- Features include filtering and sorting by date, location, and more.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Event Details and Registration
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Displays all information about a specific event.
+- "Register" button to display a registration form, leveraging both Formik and Material-UI.
 
-### `npm run eject`
+### Event Editing and Deletion
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Creators have the ability to edit or delete their events.
+- Editing form mirrors the creation form, but with pre-filled event details.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Notifications and Feedback
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Users receive notifications for their registered events.
+- Post-event, users can provide feedback and rate the event.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### more updates to come
