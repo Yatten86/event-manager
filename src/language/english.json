@@ -1,0 +1,9 @@
+{
+    "registerForm":{
+        "label": {
+            "email": "E-mail",
+            "password":"Password",
+            "confirmPassword": "Confirm Password"
+        }
+    }
+}
